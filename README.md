@@ -245,9 +245,3 @@ el tipo de valoración (positiva o negativa) y conservar el vector de intereses 
 por separado. *Cambio del algoritmo:* el perfil se recalcula a partir de todo el historial
 en vez de mezclarse solo con el último recurso, lo que da más estabilidad. Los pesos
 β, γ y δ tendrían que ajustarse con datos reales de uso, no fijarse a mano.
-
-## Archivos de la entrega
-
-`motor.py`, `app.py`, `datos/recursos.csv`, `datos/perfiles.json`,
-`evidencias/reporte_demo.json`, `evidencias/puntuaciones_antes_despues.csv`, `README.md`,
-`requirements.txt` y `.gitignore`. No se incluyen `.venv/` ni `__pycache__/`.
