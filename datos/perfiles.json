@@ -1,0 +1,18 @@
+{
+  "u1": {
+    "nombre": "Usuario con interés en datos y Python",
+    "intereses": "python datos pandas"
+  },
+  "u2": {
+    "nombre": "Usuario con interés en interfaces Angular",
+    "intereses": "angular componentes interfaces"
+  },
+  "u3": {
+    "nombre": "Usuario sin intereses declarados",
+    "intereses": ""
+  },
+  "u4": {
+    "nombre": "Usuario con términos fuera del vocabulario",
+    "intereses": "zzxyz123"
+  }
+}

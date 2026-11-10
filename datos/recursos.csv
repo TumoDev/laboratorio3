@@ -1,0 +1,13 @@
+id,titulo,descripcion,etiquetas
+R01,Fundamentos de Python,Introducción a variables y funciones mediante ejercicios breves,python variables funciones
+R02,Análisis de datos con Pandas,Manipulación de tablas de datos con Python y Pandas,python datos pandas
+R03,Gráficos con Python,Representación gráfica de datos con Python,python datos graficos
+R04,API web con Python,Creación de una API web sencilla con Python,python web api
+R05,Principios de una API HTTP,Intercambio de solicitudes y respuestas HTTP en una API web,web api http
+R06,Validación de datos en una API,Comprobación de las entradas recibidas por una API web,web api validacion
+R07,Componentes e interfaces en Angular,Construcción de interfaces con componentes de Angular,angular componentes interfaces
+R08,Formularios e interfaces en Angular,Recogida de entradas mediante formularios de Angular,angular formularios interfaces
+R09,Consumir una API desde Angular,Comunicación de una interfaz Angular con una API web,angular web api
+R10,Consultas SQL sobre datos,Recuperación de datos mediante consultas SQL,sql datos consultas
+R11,Tablas de datos en SQL,Organización de datos en tablas de una base relacional,sql datos tablas
+R12,Conectar Python con datos SQL,Acceso a datos de una base SQL mediante Python,python sql datos

@@ -1,0 +1,13 @@
+id,titulo,etiquetas,puntuacion_antes,puntuacion_despues,cambio
+R01,Fundamentos de Python,python variables funciones,0.1860959328732646,0.25492812400322895,0.06883219112996436
+R02,Análisis de datos con Pandas,python datos pandas,1.0000000000000002,0.688010093616038,-0.3119899063839622
+R03,Gráficos con Python,python datos graficos,0.4326193652667901,0.4044299977953775,-0.028189367471412596
+R04,API web con Python,python web api,0.25103667798930795,0.8751781758698687,0.6241414978805607
+R05,Principios de una API HTTP,web api http,0.0,0.4377768924774881,0.4377768924774881
+R06,Validación de datos en una API,web api validacion,0.0,0.4377768924774881,0.4377768924774881
+R07,Componentes e interfaces en Angular,angular componentes interfaces,0.0,0.0,0.0
+R08,Formularios e interfaces en Angular,angular formularios interfaces,0.0,0.0,0.0
+R09,Consumir una API desde Angular,angular web api,0.0,0.49575959368538536,0.49575959368538536
+R10,Consultas SQL sobre datos,sql datos consultas,0.20529035031751583,0.10260529466514515,-0.10268505565237068
+R11,Tablas de datos en SQL,sql datos tablas,0.20529035031751583,0.10260529466514515,-0.10268505565237068
+R12,Conectar Python con datos SQL,python sql datos,0.4965216471076184,0.46416842325413654,-0.03235322385348188

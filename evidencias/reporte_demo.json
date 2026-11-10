@@ -1,0 +1,224 @@
+{
+  "nota": "Resultados de esta ejecución. La similitud no es una probabilidad.",
+  "metodo": "TF-IDF de etiquetas y actualización normalizada de 0.4*p + 0.6*x",
+  "candidatos": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12"
+  ],
+  "retroalimentacion": {
+    "usuario": "u1",
+    "recurso": "R04",
+    "accion": "Me interesa"
+  },
+  "historiales": {
+    "u1": [
+      {
+        "numero": 1,
+        "accion": "Me interesa",
+        "recurso": "R04"
+      }
+    ],
+    "u2": [],
+    "u3": [],
+    "u4": []
+  },
+  "pruebas": [
+    {
+      "caso": "T1",
+      "cumple": true,
+      "descripcion": "Dos perfiles iniciales sobre el mismo catálogo",
+      "condiciones": {
+        "u1_lista_valida": true,
+        "u2_lista_valida": true,
+        "u1_primero_R02": true,
+        "u2_primero_R07": true
+      },
+      "u1": [
+        {
+          "id": "R02",
+          "titulo": "Análisis de datos con Pandas",
+          "puntuacion": 1.0000000000000002,
+          "explicacion": "Términos compartidos: datos, pandas, python."
+        },
+        {
+          "id": "R12",
+          "titulo": "Conectar Python con datos SQL",
+          "puntuacion": 0.4965216471076184,
+          "explicacion": "Términos compartidos: datos, python."
+        },
+        {
+          "id": "R03",
+          "titulo": "Gráficos con Python",
+          "puntuacion": 0.4326193652667901,
+          "explicacion": "Términos compartidos: datos, python."
+        }
+      ],
+      "u2": [
+        {
+          "id": "R07",
+          "titulo": "Componentes e interfaces en Angular",
+          "puntuacion": 1.0,
+          "explicacion": "Términos compartidos: angular, componentes, interfaces."
+        },
+        {
+          "id": "R08",
+          "titulo": "Formularios e interfaces en Angular",
+          "puntuacion": 0.5676773602861666,
+          "explicacion": "Términos compartidos: angular, interfaces."
+        },
+        {
+          "id": "R09",
+          "titulo": "Consumir una API desde Angular",
+          "puntuacion": 0.3086813231374439,
+          "explicacion": "Términos compartidos: angular."
+        }
+      ]
+    },
+    {
+      "caso": "T2",
+      "cumple": true,
+      "descripcion": "u1 indica Me interesa sobre R04",
+      "condiciones": {
+        "cambia_el_perfil": true,
+        "aumenta_puntuacion_R05": true,
+        "R04_pasa_al_primer_lugar": true,
+        "se_conservan_los_12_candidatos": true,
+        "se_registra_el_evento": true
+      },
+      "perfil_antes": {
+        "pandas": 0.753247,
+        "datos": 0.465091,
+        "python": 0.465091
+      },
+      "perfil_despues": {
+        "python": 0.637116,
+        "api": 0.446269,
+        "web": 0.446269,
+        "pandas": 0.376477,
+        "datos": 0.232455
+      },
+      "historial_antes": [],
+      "historial_despues": [
+        {
+          "numero": 1,
+          "accion": "Me interesa",
+          "recurso": "R04"
+        }
+      ],
+      "recomendaciones_antes": [
+        {
+          "id": "R02",
+          "titulo": "Análisis de datos con Pandas",
+          "puntuacion": 1.0000000000000002,
+          "explicacion": "Términos compartidos: datos, pandas, python."
+        },
+        {
+          "id": "R12",
+          "titulo": "Conectar Python con datos SQL",
+          "puntuacion": 0.4965216471076184,
+          "explicacion": "Términos compartidos: datos, python."
+        },
+        {
+          "id": "R03",
+          "titulo": "Gráficos con Python",
+          "puntuacion": 0.4326193652667901,
+          "explicacion": "Términos compartidos: datos, python."
+        }
+      ],
+      "recomendaciones_despues": [
+        {
+          "id": "R04",
+          "titulo": "API web con Python",
+          "puntuacion": 0.8751781758698687,
+          "explicacion": "Términos compartidos: api, python, web."
+        },
+        {
+          "id": "R02",
+          "titulo": "Análisis de datos con Pandas",
+          "puntuacion": 0.688010093616038,
+          "explicacion": "Términos compartidos: datos, pandas, python."
+        },
+        {
+          "id": "R09",
+          "titulo": "Consumir una API desde Angular",
+          "puntuacion": 0.49575959368538536,
+          "explicacion": "Términos compartidos: api, web."
+        }
+      ]
+    },
+    {
+      "caso": "T3",
+      "cumple": true,
+      "descripcion": "La interacción de u1 no modifica a u2",
+      "condiciones": {
+        "perfil_sin_cambios": true,
+        "puntuaciones_sin_cambios": true,
+        "recomendaciones_sin_cambios": true,
+        "historial_sin_cambios": true
+      },
+      "perfil_antes": {
+        "componentes": 0.657512,
+        "interfaces": 0.564679,
+        "angular": 0.498813
+      },
+      "perfil_despues": {
+        "componentes": 0.657512,
+        "interfaces": 0.564679,
+        "angular": 0.498813
+      },
+      "historial_antes": [],
+      "historial_despues": [],
+      "recomendaciones_despues": [
+        {
+          "id": "R07",
+          "titulo": "Componentes e interfaces en Angular",
+          "puntuacion": 1.0,
+          "explicacion": "Términos compartidos: angular, componentes, interfaces."
+        },
+        {
+          "id": "R08",
+          "titulo": "Formularios e interfaces en Angular",
+          "puntuacion": 0.5676773602861666,
+          "explicacion": "Términos compartidos: angular, interfaces."
+        },
+        {
+          "id": "R09",
+          "titulo": "Consumir una API desde Angular",
+          "puntuacion": 0.3086813231374439,
+          "explicacion": "Términos compartidos: angular."
+        }
+      ]
+    },
+    {
+      "caso": "T4",
+      "cumple": true,
+      "descripcion": "Perfil vacío y términos fuera del vocabulario",
+      "observaciones": [
+        {
+          "usuario": "u3",
+          "intereses": "",
+          "resultados": [],
+          "puntuaciones_cero": true,
+          "mensaje": "No hay coincidencias positivas. Declare intereses presentes en el catálogo."
+        },
+        {
+          "usuario": "u4",
+          "intereses": "zzxyz123",
+          "resultados": [],
+          "puntuaciones_cero": true,
+          "mensaje": "No hay coincidencias positivas. Declare intereses presentes en el catálogo."
+        }
+      ]
+    }
+  ]
+}
