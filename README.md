@@ -5,7 +5,6 @@ Ingeniería Web Avanzada · OII436-1 · Segundo semestre 2026
 ## Identificación
 
 - Integrantes: Francisco Cortes
-- URL del repositorio: [https://github.com/USUARIO/REPOSITORIO]
 - Fecha: 2026-11-09
 
 ## Objetivo y alcance
