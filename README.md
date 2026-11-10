@@ -154,20 +154,6 @@ Esto es evidencia de adaptación porque el único cambio entre las dos consultas
 vector de u1, modificado automáticamente por el evento Me interesa. El catálogo, el
 vectorizador y los 12 candidatos son los mismos.
 
-### Problemas detectados
-
-- No se detectaron fallos: las cuatro pruebas cumplen y los resultados coinciden con lo
-  indicado en el enunciado (u1 parte con R02, R12, R03 y después de valorar R04 obtiene
-  R04, R02, R09).
-- El equipo solo tenía Python 3.9.6 del sistema, inferior al 3.10 que recomienda el
-  material. Se instaló Python 3.15.2 con Homebrew, se recreó `.venv` con esa versión y se
-  repitió todo el proceso (`--comprobar`, `--demo`, `pip freeze`). Las evidencias de esta
-  entrega son de la ejecución con 3.15.2. Una prueba previa con 3.9.6 dio exactamente las
-  mismas puntuaciones, como era de esperar: el cálculo no depende de la versión.
-- `requirements.txt` fija versiones para Python 3.15. Con una versión de Python mucho
-  más antigua, algunas de esas versiones pueden no estar disponibles. En ese caso se
-  puede instalar `numpy pandas scikit-learn` sin versión.
-
 ## Preguntas
 
 **1. ¿Qué información describe el contenido de los recursos y qué información constituye el perfil del usuario?**
